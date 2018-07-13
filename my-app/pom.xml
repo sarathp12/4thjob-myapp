@@ -6,7 +6,7 @@
 
   <groupId>org.maven</groupId>
   <artifactId>my-app</artifactId>
-  <version>1.5-SNAPSHOT</version>
+  <version>5.0-SNAPSHOT</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -28,12 +28,12 @@
   </dependencies>
   <distributionManagement>
   <repository>
-    <id>releases</id>
-    <url>http://192.168.144.132:8081/nexus/content/repositories/releases//</url>
+    <id>liferay-releases</id>
+    <url>http://192.168.144.132:8081/nexus/content/repositories/liferay-releases//</url>
   </repository>
   <snapshotRepository>
-    <id>snapshots</id>
-    <url>http://192.168.144.132:8081/nexus/content/repositories/snapshots/</url>
+    <id>liferay-snapshots</id>
+    <url>http://192.168.144.132:8081/nexus/content/repositories/liferay-snapshots/</url>
   </snapshotRepository>
  </distributionManagement>
   <build>
