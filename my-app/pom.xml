@@ -7,7 +7,7 @@
   <groupId>org.maven</groupId>
   <artifactId>my-app</artifactId>
   <version>5.0-SNAPSHOT</version>
-
+i
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -26,16 +26,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
   <distributionManagement>
   <repository>
     <id>liferay-releases</id>
-    <url>http://192.168.144.132:8081/nexus/content/repositories/liferay-releases//</url>
+    <url>http://192.168.144.132:8081/nexus/content/repositories/liferay-releases</url>
   </repository>
   <snapshotRepository>
     <id>liferay-snapshots</id>
-    <url>http://192.168.144.132:8081/nexus/content/repositories/liferay-snapshots/</url>
+    <url>http://192.168.144.132:8081/nexus/content/repositories/liferay-snapshots</url>
   </snapshotRepository>
  </distributionManagement>
+
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
